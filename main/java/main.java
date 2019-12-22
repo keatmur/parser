@@ -48,7 +48,6 @@ public class main {
         }
         for (int i = 0 ; i <title.size(); i++ ) {
             list.add( new ListTitle(title.get(i),time.get(i)));
-
         }
         list.sort(new SortByCost());
         for(ListTitle s : list) {
